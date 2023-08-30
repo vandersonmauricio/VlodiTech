@@ -2,7 +2,6 @@ package com.vloditech.control.dominio.domain;
 
 import jakarta.persistence.*;
 import lombok.*;
-import lombok.*;
 
 
 @Builder
@@ -10,7 +9,7 @@ import lombok.*;
 @NoArgsConstructor
 @Data
 @Entity
-public class Funcionario {
+public class Pessoa {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
