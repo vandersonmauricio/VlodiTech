@@ -1,5 +1,10 @@
 package com.vloditech.control.dominio.domain;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public class Carro {
     String chassi;
     String placa;
@@ -45,5 +50,4 @@ public class Carro {
     Integer capacidadeCarga;
 
     String notaFiscal;
-
 }
