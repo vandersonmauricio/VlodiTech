@@ -1,4 +1,4 @@
-package com.vloditech.control.dominio.dao;
+package com.vloditech.control.dominio.request;
 
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.NotNull;
@@ -9,7 +9,7 @@ import java.util.Objects;
 
 @Getter
 @Setter
-public class PessoaDAO {
+public class PessoaRequest {
     private Long id;
     @NotNull
     @NotEmpty
@@ -26,8 +26,8 @@ public class PessoaDAO {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        PessoaDAO pessoaDAO = (PessoaDAO) o;
-        return Objects.equals(id, pessoaDAO.id) && Objects.equals(login, pessoaDAO.login) && Objects.equals(senha, pessoaDAO.senha) && Objects.equals(niveisDeAcesso, pessoaDAO.niveisDeAcesso);
+        PessoaRequest pessoaRequest = (PessoaRequest) o;
+        return Objects.equals(id, pessoaRequest.id) && Objects.equals(login, pessoaRequest.login) && Objects.equals(senha, pessoaRequest.senha) && Objects.equals(niveisDeAcesso, pessoaRequest.niveisDeAcesso);
     }
 
     @Override
