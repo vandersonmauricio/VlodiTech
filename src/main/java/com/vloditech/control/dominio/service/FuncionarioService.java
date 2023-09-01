@@ -12,8 +12,10 @@ import org.springframework.stereotype.Service;
 public class FuncionarioService {
     @Autowired
     PessoaRepository repository;
+
     public void criarLogin(PessoaDAO pessoa){
         //vejo se a pessoa esta no banco se não estiver crio ela no banco
+        repository.findById(pessoa.g)
     //    repository.findById(pessoa.)
       //  Pessoa pessoa = new Pessoa();
     }

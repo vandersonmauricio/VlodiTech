@@ -1,10 +1,13 @@
 package com.vloditech.control.dominio.dao;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
 
-@Setter @Getter
+@Setter
+@Getter
+@AllArgsConstructor
+@NoArgsConstructor
+@EqualsAndHashCode
 public class PessoaDAO {
     private Long id;
     private  String login;
