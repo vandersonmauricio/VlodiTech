@@ -1,5 +1,5 @@
 package com.vloditech.control.dominio.controller;
 
 
-public class FuncionarioController {
+public class PessoaController {
 }
