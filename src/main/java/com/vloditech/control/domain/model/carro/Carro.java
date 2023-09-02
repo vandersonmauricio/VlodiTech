@@ -1,4 +1,4 @@
-package com.vloditech.control.dominio.domain;
+package com.vloditech.control.domain.model.carro;
 
 public class Carro {
     String chassi;

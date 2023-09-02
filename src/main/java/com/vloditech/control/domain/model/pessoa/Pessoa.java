@@ -1,4 +1,4 @@
-package com.vloditech.control.dominio.domain;
+package com.vloditech.control.domain.model.pessoa;
 
 import jakarta.persistence.*;
 import lombok.*;
