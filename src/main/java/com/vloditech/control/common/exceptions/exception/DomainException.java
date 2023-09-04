@@ -1,4 +1,4 @@
-package com.vloditech.control.common.exception;
+package com.vloditech.control.common.exceptions.exception;
 
 import java.util.Objects;
 
